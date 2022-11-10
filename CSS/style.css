@@ -2,6 +2,7 @@
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
+		list-style: none;
 		font-family: 'Bebas Neue', cursive;
 
 	}
@@ -18,17 +19,14 @@
 		width: 100%;
 		height: 100vh;
 		background: rgba(0,0,0,0.3);
-
 	}
 	.header{
 		width: 100%;
 		height: 100px;
-		position: fixed;
 		top: 0;left: 0;
 	}
 	.container{
 		width: 90%;
-		max-width:20%;
 		margin-left: 1.5%;
 		}
 	.container .btn-menu, .logo{
@@ -38,7 +36,7 @@
 	.container .btn-menu label{
 		color: #fff;
 		font-size: 45px;
-		cursor: pointer;
+		cursor: pointer;	
 	}
 	.logo h1{
 		color: #fff;
@@ -50,21 +48,7 @@
 		float: right;
 		line-height: 100px;
 	}
-	.container .menu a{
-		display: inline-block;
-		padding: 15px;
-		line-height: normal;
-		text-decoration: none;
-		color: #fff;
-		transition: all 0.3s ease;
-		border-bottom: 2px solid transparent;
-		font-size: 15px;
-		margin-right: 5px;
-	}
-	.container .menu a:hover{
-		border-bottom: 2px solid #c7c7c7;
-		padding-bottom: 5px;
-	}
+
 	
 	/*Menu empieza aqui */
 
@@ -121,3 +105,13 @@
 		font-size: 18px;
 	}
 	/*acaba aqui */
+	.redes{
+		font-size: 200%;
+	
+	}
+	.erikm{
+		margin-bottom:-34% ;
+		text-align: center;
+		color: #fff;
+		font-size: 200%;
+	}
