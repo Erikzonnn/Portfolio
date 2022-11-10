@@ -65,6 +65,8 @@
 		border-bottom: 2px solid #c7c7c7;
 		padding-bottom: 5px;
 	}
+	
+	/*Menu empieza aqui */
 
 	#btn-menu{
 		display: none;
@@ -118,3 +120,4 @@
 		cursor: pointer;
 		font-size: 18px;
 	}
+	/*acaba aqui */
